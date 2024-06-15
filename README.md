@@ -9,6 +9,11 @@ This is a ligthweigth golang program that:
 
 This program is brand new and bug most likely exists.
 
+## Usage
+
+1. Create a config (example below)
+2. Run the program
+
 ## Example config
 
 ```yaml
