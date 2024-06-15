@@ -1,0 +1,96 @@
+app_config:
+  debug: True
+  update_check: True
+  remove_unwanted_containers: True
+
+containers:
+  - name: nginx_1
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8090
+    env:
+      - key1=value1
+  - name: nginx_2
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8091
+    env:
+      - key1=value1
+  - name: nginx_3
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8092
+    env:
+      - key1=value1
+  - name: nginx_4
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8093
+    env:
+      - key1=value1
+  - name: nginx_5
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8094
+    env:
+      - key1=value1
+  - name: nginx_6
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8095
+    env:
+      - key1=value1
+  - name: nginx_7
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8096
+    env:
+      - key1=value1
+  - name: nginx_8
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8097
+    env:
+      - key1=value1
+  - name: nginx_9
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8098
+    env:
+      - key1=value1
+  - name: nginx_10
+    image: nginx:latest
+    port_bindings:
+      - port: 80
+        protocol: tcp
+        host_ip: 0.0.0.0
+        host_port: 8099
+    env:
+      - key1=value1
