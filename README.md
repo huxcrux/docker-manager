@@ -41,4 +41,4 @@ This is currently a bit unclear. I have tested with 1 and 10 containers and the 
 ## known issues
 
 * Environent variables not compared (no update if changed)
-* Very few options can be set on containers. This is currently by design to get a MWP ready
+* Very few options can be set on containers. This is currently by design to get a MVP ready
